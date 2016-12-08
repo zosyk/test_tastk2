@@ -16,6 +16,7 @@ public class TimeUtilsTest {
     public void initData() {
 
         timeUtils = new TimeUtils();
+
     }
 
     @Test

@@ -8,11 +8,14 @@ import java.util.ResourceBundle;
 
 public class TimeUtils {
 
-    private static LogUtils logUtils;
+    private final LogUtils logUtils;
+
+    public TimeUtils () {
+        logUtils = new LogUtils();
+    }
 
     public static void main(String[] args) {
 
-        logUtils = new LogUtils();
         final TimeUtils timeUtils = new TimeUtils();
 
 
